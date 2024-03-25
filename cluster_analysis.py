@@ -271,11 +271,6 @@ def ParseArgs():
     save_data = False
     save_figures = False
     
-    command_line_args.append("frames.fd") ##########
-    command_line_args.append("--cs=4.5") ##########
-    command_line_args.append("--minc=100") ##########
-    command_line_args.append("--maxc=200") ##########
-    
     # iterate through all command line args
     if (len(command_line_args) > 1):
         for i in range(1, len(command_line_args)):
