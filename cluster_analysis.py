@@ -258,7 +258,7 @@ def ParseArgs():
     
     file_name = "H2-1S_adsorb_-1.0.lammpstrj"
     frame_select = [None, -1]
-    cluster_size = 3.2
+    cluster_size = 4.5
     min_cluster_size = 2
     max_cluster_size = 6
     num_points = 50
